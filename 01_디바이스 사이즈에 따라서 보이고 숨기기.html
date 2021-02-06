@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>보이고 숨기기 </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        .img{
+            background-image: url(sunflower.jpg);
+            width: 222px;
+            height: 130px;
+        }
+        .bo{
+            border:solid 1px red;
+        }
+    </style>
+  </head>
+  <body>
+    <span>인라인 요소</span>
+    <span class="text-primary show">인라인 요소</span>
+    <span class="bg-danger sr-only">인라인 요소</span>
+
+    <div class="img">예쁜 해바라기 입니다</div>
+
+    <div class="col-xs-12 bg-info bo visible-xs">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 스마트폰 사이즈 기기에서만 보임</p>
+    </div>
+    <div class="col-xs-12 bg-danger bo visible-sm">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 타블랫 사이즈 기기에서만 보임</p>
+    </div>
+    <div class="col-xs-12 bg-warning bo visible-md">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠        
+        <p>해당하는 요소는 작은 모니터 사이즈 기기에서만 보임</p>
+    </div>
+    <div class="col-xs-12 bg-primary bo visible-lg">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 큰 모니터 사이즈 기기에서만 보임</p>
+    </div>
+
+    <div class="col-xs-12 bg-info bo hidden-xs">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 스마트폰 사이즈 기기에서만 숨김</p>
+    </div>
+    <div class="col-xs-12 bg-danger bo hidden-sm">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 타블랫 사이즈 기기에서만 숨김</p>
+    </div>
+    <div class="col-xs-12 bg-warning bo hidden-md">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠        
+        <p>해당하는 요소는 작은 모니터 사이즈 기기에서만 숨김</p>
+    </div>
+    <div class="col-xs-12 bg-primary bo hidden-lg">
+        디바이스 사이즈에서 보이고 숨기는 컨텐츠
+        <p>해당하는 요소는 큰 모니터 사이즈 기기에서만 숨김</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
