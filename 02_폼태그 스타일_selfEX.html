@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+   <style>
+       .container{
+           background-color: orange;
+           padding:50px 100px;
+       }
+   </style>
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputGroupSuccess1">Email address</label>
+                        <div class="input-group">
+                          <span class="input-group-addon">@</span>
+                          <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" value="E-mail주소를 입력해 주세요">
+                        </div>
+                        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    </div>
+            
+                    <div class="form-group has-error has-feedback">
+                        <label class="control-label" for="inputError2">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">♣</span>
+                            <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status" value="비밀번호를 입력해 주세요">
+                        </div>
+                        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="form-group has-warning">
+                        <label class="control-label" for="exampleInputFile">파일 업로드</label>
+                        <input type="file" id="exampleInputFile">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-default">submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputGroupSuccess1">Email address</label>
+                        <div class="input-group">
+                          <span class="input-group-addon">@</span>
+                          <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" value="E-mail주소를 입력해 주세요">
+                        </div>
+                        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    </div>
+            
+                    <div class="form-group has-error has-feedback">
+                        <label class="control-label" for="inputError2">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">♣</span>
+                            <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status" value="비밀번호를 입력해 주세요">
+                        </div>
+                        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="form-group has-warning">
+                        <label class="control-label" for="exampleInputFile">File input</label>
+                        <input type="file" id="exampleInputFile">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-default">submit</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
